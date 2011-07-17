@@ -1,0 +1,54 @@
+<html>
+<head>
+    <title>{0} clan war server</title>
+</head>
+<body bgcolor=#000000 text=#ffffff>
+<table align="center" bgcolor=#262626 width="640">
+    <tr align="center">
+        <td><h1><font face="stencil">{0}</font></h1></td>
+    </tr>
+    <tr align="center">
+        <td>
+            <p>Select time and map for Clan War server</p>
+        </td>
+    </tr>
+    <tr align="center">
+        <td>
+            <font face="verdana">
+                <form action="http://{0}:{1}/" method="post">
+                    <p>Code: <input type="text" name="code">
+                        <input type="submit" value="Send">
+                    </p>
+
+                    <p>Select time:</p>
+                    <select name="time">
+                        <option value="1">1 minute</option>
+                        <option value="15">15 minutes</option>
+                        <option value="45">45 minutes</option>
+                        <option value="90" selected>90 minutes</option>
+                    </select>
+
+                    <p>Select map:</p>
+                    <select name="map">
+                        <option value="de_aztec">de_aztec</option>
+                        <option value="de_dust">de_dust</option>
+                        <option value="de_dust2" selected>de_dust2</option>
+                        <option value="de_dust2_2x2">de_dust2_2x2</option>
+                        <option value="de_inferno">de_inferno</option>
+                        <option value="de_nuke">de_nuke</option>
+                        <option value="de_train">de_train</option>
+                    </select>
+                </form>
+            </font>
+        </td>
+    </tr>
+    <tr align="center">
+        <td>
+            <font color=#aaaaaa face="verdana" size=2>
+                <p>designed and written by deadmoto</p>
+            </font>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
